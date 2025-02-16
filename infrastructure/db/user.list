@@ -410,3 +410,4 @@ id  user		group		port
 899 _openhab		_openhab	misc/openhab
 900 _z2m		_z2m		comms/zigbee2mqtt
 901 _ergo		_ergo		net/ergo
+902 _mollysocket	_mollysocket	net/mollysocket

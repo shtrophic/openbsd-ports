@@ -1,0 +1,14 @@
+@newgroup _mollysocket:902
+@newuser _mollysocket:902:902::mollysocket daemon:/nonexistent:/sbin/nologin
+@rcscript ${RCDIR}/mollysocket
+@bin bin/mollysocket
+share/examples/mollysocket/
+share/examples/mollysocket/mollysocket.conf
+@mode 0640
+@owner
+@group _mollysocket
+@sample ${SYSCONFDIR}/mollysocket.conf
+@mode 0700
+@owner _mollysocket
+@group _mollysocket
+@sample /var/db/mollysocket/
